@@ -1,6 +1,6 @@
 # Edited by Naga Ravi Chaitanya Elluri
-# projects
-#Code and description about each project
+# List of Projects
+# Description about each project
 
 •	Log Processing, Search using Apache Kafka and Apache Spark  on Amazon EC2:
 Description: Log processing is done using Apache Kafka a high throughput distributed messaging system which handles high volumes of data. The brokers (cluster of servers) will be handling reads and writes from thousands of clients. Webserver will be running in the producer end which is written in Node.js, the logs generated will be updated to a specific topic in the cluster. The logs received by the consumer who has subscribed to a particular topic in kafka are streamed, searched for specific content using Apache Spark. Docker is used to automate the workflow and to make the application independent of platform.
