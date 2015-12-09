@@ -11,7 +11,7 @@ then
         echo "Low Memory" | mail -s "Low Memory" naga.elluri@colorado.edu
        
 else
-        echo " "
+        echo "Enough Memory Left"
       
 fi
 echo " "
