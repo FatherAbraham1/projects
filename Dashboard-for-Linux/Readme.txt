@@ -1,6 +1,6 @@
 # Edited by Naga Ravi Chaitanya Elluri
 
-The script is meant for RHEL (centos 6.x), there might be minoe differences when using this script in Debian (Ubuntu)
+The script is meant for RHEL (centos 6.x), there might be minor differences when using this script in Debian (Ubuntu)
 
 STEPS TO EXECUTE:
 
