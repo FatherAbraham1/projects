@@ -18,4 +18,7 @@ Description: Hadoop is installed on Amazon EC2. The cluster consists of 1 nameno
 •	Web Service application Using Java EE:
 Description: Developed an application for employees to schedule a leave conveniently. Absence details are stored in MySQL and REST web service is used to parse the decision, display the decision to the employee. 
 
+• Secure remote servers access using VNC
+To overcome the disadvantages of SSH, I installed vncserver package on production machines for all the users so that vncserver deamon running  will allow the users to access the servers GUI from anywhere.
+
 
