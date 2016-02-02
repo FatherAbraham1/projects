@@ -10,6 +10,9 @@ command has to be run to start a kafka container.
 $ docker run –it -d –p 8112:8112 --name=webserver nodejs
 command to start a nodejs (webserver running on port 8112) container
 $ docker run –it apachespark command to start a spark container.
+
+
+
 Run the following commands on Kafka:
 Kafka server, zookeeper are started automatically
 $ docker ps to get the container_id
@@ -19,6 +22,8 @@ $ docker exec –it container_id /bin/bash
 $ bin/kafka-topics.sh --create --zookeeper 192.168.99.100:2181 --
 replication-factor 1 --partitions 1 --topic redhat
 Note: IP will vary.
+
+
 Run the following commands on nodejs:
 $ docker ps to get the container_id
 I used docker exec to get into the running machine and send the logs(
@@ -40,6 +45,8 @@ Rendering html page
 Error in rendering
 Error in rendering
 Note: IP will vary.
+
+
 Run the following commands on spark:
 Everything is automated on the spark side, you will see just the error
 logs extracted from all the logs by spark( python api). There’s a
